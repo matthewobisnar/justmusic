@@ -1,0 +1,72 @@
+#Musicalbum {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 15px;
+}
+
+.card-album {
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.07);
+    height: 3rem;
+}
+
+.md-48 { 
+    font-size: 48px; 
+    text-shadow:  1px 1px 3px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+@media(max-width: 763px) {
+    #Musicalbum {
+        padding-top: 88px;
+    }
+}
+
+@media (max-width: 1108px) {
+    #Musicalbum {
+        padding-top: 88px;
+    }
+}
+
+.hovereffect {
+    position: relative;
+    width: 100%;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4648488c;
+    cursor: pointer;
+  }
+  
+  .hovereffect img {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .hovereffect:hover .overlay:hover {
+    opacity: 1;
+  }
+
+  

@@ -1,0 +1,61 @@
+#album {
+    width: 100%;
+    min-height: 100vh;
+}
+
+@media(max-width: 763px) {
+    #album {
+        padding-top: 73px !important;
+    }
+    .media {
+        display:block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1108px) {
+    #album {
+        padding-top: 73px !important;
+    }
+}
+
+.hovereffect {
+    position: relative;
+    width: 130px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4648488c;
+    cursor: pointer;
+  }
+  
+  .hovereffect img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .hovereffect:hover .overlay:hover {
+    opacity: 1;
+  }

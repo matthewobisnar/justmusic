@@ -1,0 +1,17 @@
+#genres {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 15px;
+}
+
+@media(max-width: 763px) {
+    #genres {
+        padding-top: 88px;
+    }
+}
+
+@media (max-width: 1108px) {
+    #genres {
+        padding-top: 88px;
+    }
+}

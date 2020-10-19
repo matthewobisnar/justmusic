@@ -1,0 +1,124 @@
+.artistAttach { font-size: 11px; line-height:1 ;display: block; padding: 0px}
+.isPlaying  {
+  background:#f8f9fa !important;
+}
+.media-icon {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.table-playlist th {
+    border: 0px !important;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background: #f8f9fa
+}
+
+@media(max-width: 763px) {  
+    .table tr td:not(:first-child){
+        line-height: 1.9 !important
+    }
+}
+
+/* Song Image */
+.image {
+    display: block;
+    height: auto;
+    width: 40px;
+    height: 40px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.12);
+  }
+
+  .preview {
+      position: relative;
+      width:auto;
+  }
+
+  /* table tbody tr:hover {
+    background: #eaeafb
+  } */
+
+  .overlay {
+    position: absolute;
+    border-radius: 25px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    opacity: 0;
+    color: white;
+    transition: .5s ease;
+    background-color: #50505085;
+    cursor: pointer;
+  }
+
+  .preview:hover, .overlay:hover, .activeMedia  {
+    opacity: 1;
+    color: white;
+  }
+
+  .table tr td:not(:first-child){
+    line-height: 3.4
+  }
+
+  .table thead th:last-child {
+    line-height: .5
+  }
+
+  .spinner {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    float:right
+  }
+  
+  .spinner > div {
+    background-color: #333;
+    height: 100%;
+    width: 2px;
+    margin:1px;
+    display: inline-block;
+    
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  }
+  
+  .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+  }
+  
+  .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+  }
+  
+  .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+  }
+  
+  @-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+    20% { -webkit-transform: scaleY(1.0) }
+  }
+  
+  @keyframes sk-stretchdelay {
+    0%, 40%, 100% { 
+      transform: scaleY(0.4);
+      -webkit-transform: scaleY(0.4);
+    }  20% { 
+      transform: scaleY(1.0);
+      -webkit-transform: scaleY(1.0);
+    }
+  }
