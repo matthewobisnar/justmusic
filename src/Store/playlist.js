@@ -43,7 +43,7 @@ export default {
           },
           { 
             id: 'ia601407',
-            image: "https://data.whicdn.com/images/225143351/large.jpg", 
+            image: "http://www.fouroverfour.jukely.com/wp-content/uploads/2017/01/Leroy-Sanchez.jpg", 
             title:"Never Really Over", 
             artist: "Cover by Leroy Sanchez", 
             album: "Leroy Sanchez", 
