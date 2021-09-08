@@ -29,4 +29,4 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Live
 ```
-https://matthewobisnar.github.io/justmusic/```
+https://matthewobisnar.github.io/justmusic/
